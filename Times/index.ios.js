@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import TimesComponent from "./TimesComponent";
 
 export default class Times extends Component {
   render() {
@@ -50,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Times', () => Times);
+AppRegistry.registerComponent('Times', () => TimesComponent);
